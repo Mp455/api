@@ -8,7 +8,7 @@
     "dev": "nodemon ./src/server.js",
     "knex": "knex",
     "migrate": "npx knex migrate:latest",
-    "test": "jest"
+    "test": "jest --watch"
   },
   "keywords": [],
   "author": "Marcos Paulo",
