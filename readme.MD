@@ -1,21 +1,53 @@
-# Backend do Projeto React-Notes
+# Backend do Projeto React-Notes 💻
 
 Projeto básico no qual você consegue adicionar notas e listar tags e links de tarefas importantes que deseja salvar.
 
-## Referência
+## 🔃 Roadmap (Futuras atualizações)
 
-- [Trilha Explorer rocketseat](https://www.rocketseat.com.br/)
+- Melhorar o suporte de navegadores
 
-## Variáveis de Ambiente
+- Adicionar mais integrações
 
-Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de ambiente no seu .env
+## 🛠️ Stack utilizada
 
-`AUTH_SECRET`=
+**Back-end:** Node.js, Express, SQLite, Knex.js, Jest Test.
 
-`PORT`=
 
-## Aprendizados
+## 💻 Rodando localmente
 
-O que você aprendeu construindo esse projeto? Quais desafios você enfrentou e como você superou-os?
+Clone o projeto
 
-Muito interessante executar esse projeto pois aprendi sobre JWT Token, Utilizando de um query-builder, que no caso foi o knex - “construtor de consultas” em tradução livre, para Node.js, e que interage com bancos relacionais. Aprendizado também a arquitetura de software com padrão MVC que foi supoer importante, dentre outras bibliotecas para a melhor desempenho do projeto final.
+```bash
+  git clone https://github.com/Mp455/back-end-react-notes.git
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd back-end-react-notes
+```
+
+Instale as dependências
+
+```bash
+  npm install
+```
+
+Inicie o servidor
+
+```bash
+  npm run dev
+```
+
+
+## 🧪 Rodando os testes
+
+Para rodar os testes, rode o seguinte comando
+
+```bash
+  npm run test
+```
+
+## 🚀 Feedback
+
+Se você tiver algum feedback, seria interessante receber pelo meu email principal: marcospaulosousa48@gmail.com
